@@ -1,0 +1,103 @@
+
+.head{
+    display: flex;
+} 
+.head img {
+    margin-left: 140px;
+    padding-top:50px ;
+    height:40px;
+}
+.head button {
+   margin-left: 1050px;
+   margin-top: 50px;
+   border:10px ;
+   height: 50px;
+   font-weight:bold;
+}
+.middle{
+    margin-top: 100px;
+}
+.middle h1,p {
+    margin-left: 140px;
+    font-family: 'Barlow', sans-serif; 
+   
+}
+
+.middle img {
+    float: right;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+.aside h3 {
+    font-family: 'Barlow', sans-serif;
+    color:rgb(212, 222, 231);
+    margin-left: 10px;
+}
+.middle button {
+    font-weight: bold;
+    margin-left: 140px;
+    color: white;
+    background-color: orange;
+    border: 10px;
+    border-radius:5px;
+    padding: 10px;
+}
+.aside {
+    display: flex;
+}
+.im {
+    display: flex;
+}
+.sel {
+    
+   filter: invert(10%) sepia(15%) saturate(3407%) brightness(100%) contrast(100%)
+}
+.im img {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    margin-left: 140px;
+    border-radius: 10px;
+} 
+.para {
+   
+    position: relative;
+    display: flex;
+   
+}
+.para h1 {
+    float: right;
+    margin-bottom: 200px;
+    margin-left: 240px;
+}
+.para p {
+    font-family: 'Barlow', sans-serif;
+    position: absolute;
+    top: 140px;
+    bottom:100px;
+    left:100px;
+    font-weight: bold;
+}
+.foot h1 {
+    font-family: 'Barlow', sans-serif;
+    margin-left: 120px;
+}
+.foot {
+   display: flex;
+   margin-top: 150px;
+   margin-right: 20px;
+   
+} 
+.foot img{
+   position: absolute;
+   top: 900px;
+   margin-left: 150px;
+   width: 35px;
+   height:35px;
+   background-color: orange;
+   bottom: 0px;
+   border-radius: 10px;
+   padding: 5px;
+} 
